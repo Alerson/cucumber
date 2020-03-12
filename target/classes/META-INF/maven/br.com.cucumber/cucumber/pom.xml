@@ -74,9 +74,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<!-- compile for Java 1.8 -->
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
-					<encoding>${project.build.sourceEncoding}</encoding>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 			<plugin>
